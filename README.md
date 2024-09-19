@@ -1,8 +1,24 @@
-# IS314_Project
- oxygen
+# README
 
-Open your oxygen and navigate to "admin\oxygen\tmp\cache\assets" path and copy the actual path.
-Paste your path here "icacls "YOUR PATH" /grant Everyone:(OI)(CI)F /T " and paste the command to your cmd and hit enter.
-THEN
-RUN "bundle install" in the gitbash before running the server.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
