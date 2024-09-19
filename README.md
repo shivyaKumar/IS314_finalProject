@@ -21,4 +21,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+NOTE:
+Before running the server open the project and copy the following assets path "admin\oxygen\tmp\cache\assets"
+Then open your cmd and type this command with your path "icacls "YOUR ASSETS PATH" /grant Everyone:(OI)(CI)F /T" then hit enter.
+Before running the server "bundle install" in your terminal or gitbash.
