@@ -4,7 +4,8 @@ class Product < ApplicationRecord
   has_one_attached :image
   has_many :product_colors
   has_many :colors, through: :product_colors
-
+  has_many :wishlists
+  has_many :wishlisted_by, through: :wishlists, source: :user
   accepts_nested_attributes_for :variants, allow_destroy: true
 
   # Validations

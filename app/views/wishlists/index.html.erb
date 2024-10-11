@@ -1,0 +1,9 @@
+<h1>Your Wishlist</h1>
+<% @wishlist_items.each do |product| %>
+  <div class="wishlist-item">
+    <h3><%= product.name %></h3>
+    <p><%= product.description %></p>
+    <%= link_to 'Add to Cart', add_to_cart_path(product_id: product.id), method: :post, class: 'btn btn-cart' %>
+    <%= link_to 'Remove from Wishlist', remove_wishlists_remove_path(product_id: product.id), method: :delete, class: 'btn btn-remove' %>
+  </div>
+<% end %>
